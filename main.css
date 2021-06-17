@@ -1,0 +1,136 @@
+/*GLOBAL*/ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+body {
+    width: 100%;
+}
+
+
+
+/*Nav*/
+nav {
+    height: 100px;
+    line-height: 100 px;
+    vertical-align: middle;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display:inline;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: middle;
+    
+}
+
+ul li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #848c8e;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: #435058;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4c5454;
+}
+
+#myname {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    color: #4c5456;
+}
+
+
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a9aca9;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.wrapper {
+    width: 100%;
+    margin:  1.5% auto ;
+    padding: 10px;
+}
+
+
+.work {
+    margin-top: 6%;
+    text-align: center;
+    width: 100%;
+}
+
+.work img {
+    margin: 1%;
+    width: 30%;
+}
+
+/*Portfolio Boxes*/
+.box {
+    display: inline-block;
+    position: static;
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.07);
+    border-radius: 4px;
+    white-space: normal;
+    -webkit-transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+    transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+    z-index: 1;
+}
+#green {
+    background-color: #CDEAC0;
+}
+
+#orange {
+    background: #FEC3A6;
+}
+
+#yellow {
+    background: #EFE9AE;
+}
+
+#yellow:hover {
+    background: #E5D960;
+    height: 252px;
+}
+#orange:hover {
+    background: #E69F7C;
+    height: 252px;
+}
+#green:hover {
+    background: #B2DC9F;
+    height: 252px;
+}
+
